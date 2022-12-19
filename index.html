@@ -2,91 +2,112 @@
 <html lang="pt-br">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Instagram</title>
-    <link rel="stylesheet" href="./assets/css/reset.css">
-    <link rel="stylesheet" href="./assets/css/style.css">
-    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
-    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Instagram</title>
+  <link rel="stylesheet" href="./assets/css/reset.css">
+  <link rel="stylesheet" href="./assets/css/style.css">
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 </head>
 
 <body>
-    <header>
-        <div class="instagram">
-            <ion-icon class="header-icon" name="logo-instagram"></ion-icon>
-            <p class="border-left"></p>
-            <img class="header-logo" src="assets/img/logo.png">
+  <header>
+    <div class="header">
+      <div class="instagram">
+        <ion-icon class="header-icon" name="logo-instagram"></ion-icon>
+        <p class="border-left off"></p>
+        <img class="header-logo" src="assets/img/logo.png">
+        <ion-icon class="mobile" name="paper-plane-outline"></ion-icon>
+      </div>
+      <input class="search off" type="text" placeholder="Pesquisar"></input>
+      <div class="menu off">
+        <ion-icon name="paper-plane-outline"></ion-icon>
+        <ion-icon name="compass-outline"></ion-icon>
+        <ion-icon name="heart-outline"></ion-icon>
+        <ion-icon name="person-outline"></ion-icon>
+      </div>
+    </div>
+  </header>
+  <main>
+    <div class="left">
+    <div class="storie-box">
+      <div class="storie">
+        <img class="storie-img-back" src="./assets/img/stories_background.jpg">
+        <img class="storie-img" src="./assets/img/9gag.png">
+        <p class="storie-txt">9gag</p>
+      </div>
+      <div class="storie">
+        <img class="storie-img-back" src="./assets/img/stories_background.jpg">
+        <img class="storie-img" src="./assets/img/9gag.png">
+        <p class="storie-txt">9gag</p>
+      </div>
+      <div class="storie">
+        <img class="storie-img-back" src="./assets/img/stories_background.jpg">
+        <img class="storie-img" src="./assets/img/9gag.png">
+        <p class="storie-txt">9gag</p>
+      </div>
+      <div class="storie">
+        <img class="storie-img-back" src="./assets/img/stories_background.jpg">
+        <img class="storie-img" src="./assets/img/9gag.png">
+        <p class="storie-txt">9gag</p>
+      </div>
+      <div class="storie">
+        <img class="storie-img-back" src="./assets/img/stories_background.jpg">
+        <img class="storie-img" src="./assets/img/9gag.png">
+        <p class="storie-txt">9gag</p>
+      </div>
+      <div class="storie">
+        <img class="storie-img-back" src="./assets/img/stories_background.jpg">
+        <img class="storie-img" src="./assets/img/9gag.png">
+        <p class="storie-txt">9gag</p>
+      </div>
+      <div class="storie">
+        <img class="storie-img-back" src="./assets/img/stories_background.jpg">
+        <img class="storie-img" src="./assets/img/9gag.png">
+        <p class="storie-txt">9gag</p>
+      </div>
+      <ion-icon class="seta" name="chevron-forward-circle-outline"></ion-icon>
+      <div class="storie">
+        <img class="storie-img-back" src="./assets/img/stories_background.jpg">
+        <img class="storie-img" src="./assets/img/9gag.png">
+        <p class="storie-txt">9gag</p>
+      </div>
+      <div class="storie">
+        <img class="storie-img-back" src="./assets/img/stories_background.jpg">
+        <img class="storie-img" src="./assets/img/9gag.png">
+        <p class="storie-txt">9gag</p>
+      </div>
+      
+    </div>
+    <div class="conteiner-feed">
+      <div class="post-feed">
+        <div class="top-feed">
+          <img class="img-usuario" src="assets/img/meowed.png">
+          <p class="nome-usuario"> meowed </p>
+          <ion-icon class="icon-feed" name="ellipsis-horizontal"></ion-icon>
         </div>
-        <input type="text" placeholder="Pesquisar" class="search"></input>
-        <div class="menu">
-            <ion-icon name="paper-plane-outline"></ion-icon>
-            <ion-icon name="compass-outline"></ion-icon>
+        <img class="img-feed" src="./assets/img/gato-telefone.png">
+
+        <di class="bottom-feed">
+          <div class="icon-bottom">
             <ion-icon name="heart-outline"></ion-icon>
-            <ion-icon name="person-outline"></ion-icon>
-        </div>
-    </header>
-    <main>
-        <div class="storie-box">
-            <div class="storie">
-                <img class="storie-img" src="./assets/img/9gag.png">
-                <p class="storie-txt">9gag</p>
-            </div>
-            <div class="storie">
-                <img class="storie-img" src="./assets/img/9gag.png">
-                <p class="storie-txt">9gag</p>
-            </div>
-            <div class="storie">
-                <img class="storie-img" src="./assets/img/9gag.png">
-                <p class="storie-txt">9gag</p>
-            </div>
-            <div class="storie">
-                <img class="storie-img" src="./assets/img/9gag.png">
-                <p class="storie-txt">9gag</p>
-            </div>
-            <div class="storie">
-                <img class="storie-img" src="./assets/img/9gag.png">
-                <p class="storie-txt">9gag</p>
-            </div>
-            <div class="storie">
-                <img class="storie-img" src="./assets/img/9gag.png">
-                <p class="storie-txt">9gag</p>
-            </div>
-            <div class="storie">
-                <img class="storie-img" src="./assets/img/9gag.png">
-                <p class="storie-txt">9gag</p>
-            </div>
-            <div class="storie">
-                <img class="storie-img" src="./assets/img/9gag.png">
-                <p class="storie-txt">9gag</p>
-            </div>
-        </div>
-        <div class="conteiner-feed">
-            <div class="post-feed">
-                <div class="top-feed">
-                    <img class="img-usuario" src="assets/img/meowed.png">
-                    <p class="nome-usuario"> meowed </p>
-                    <ion-icon class="icon-feed" name="ellipsis-horizontal"></ion-icon>
-                </div>
-                <img class="img-feed" src="./assets/img/gato-telefone.png">
+            <ion-icon name="chatbubble-outline"></ion-icon>
+            <ion-icon name="paper-plane-outline"></ion-icon>
+            <ion-icon name="bookmark-outline"></ion-icon>
+          </div><br>
+          <img class="img-bottom" src="assets/img/9gag.png">
+          <p class="txt-bottom"> Curtido por respondeai e outras 101.523 pessoas </p>
+      </div>
+    </div>
+  </div>
+  <div class="right">
+<div class="sidebar">
 
-                <di class="bottom-feed">
-                <div class="icon-bottom">
-                    <ion-icon name="heart-outline"></ion-icon>
-                    <ion-icon name="chatbubble-outline"></ion-icon>
-                    <ion-icon name="paper-plane-outline"></ion-icon>
-                    <ion-icon name="bookmark-outline"></ion-icon>
-                </div><br>
-                    <img class="img-bottom" src="assets/img/9gag.png">
-                    <p class="txt-bottom"> Curtido por respondeai e outras 101.523 pessoas </p>
-                </div>
-            </div>
-
-        </div>
-        </div>
-
-    </main>
+</div>
+  </div>
+  </main>
 </body>
 
 </html>
