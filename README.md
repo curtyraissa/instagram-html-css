@@ -7,16 +7,16 @@
 <h1 align="center">Projeto Instagram responsivo </h1>
 
 <p align="justify">Esse desafio, foi desenvolver a aplicação do instagram a partir de um layout, colocando em prática tudo o que aprendi.</p>
-- [x]  Aplicar layout para *desktop*, seguindo layout fornecido no Figma;<br>
-- [x]  Aplicar layout para *mobile*, seguindo layout fornecido no Figma;<br>
-- [x]  O layout sem *sidebar* deve ser ativado quando a largura da tela for menor que 935px;<br>
-- [x]  O layout para *mobil*e deve ser ativado quando a largura da tela for inferior a 614px;<br>
-- [x]  Não é obrigatório que a *sidebar* fique fixa conforme o usuário desce na página como ocorre no Instagram (mas é um bônus);<br>
+- [x]  Aplicar layout para **desktop**, seguindo layout fornecido no Figma;<br>
+- [x]  Aplicar layout para **mobile**, seguindo layout fornecido no Figma;<br>
+- [x]  O layout sem **sidebar** deve ser ativado quando a largura da tela for menor que 935px;<br>
+- [x]  O layout para **mobile** deve ser ativado quando a largura da tela for inferior a 614px;<br>
+- [x]  Não é obrigatório que a **sidebar** fique fixa conforme o usuário desce na página como ocorre no Instagram (mas é um bônus);<br>
 - [x]  Utilize os ícones da biblioteca [Ionicons](https://ionicons.com/);<br>
-- [x]  Na caixa dos *stories*, deve haver itens o suficiente para ultrapassar a largura, mas os itens a mais não devem ser exibidos, conforme *layout*;<br>
-- [x]  Deve haver, no modo *desktop*, uma setinha no canto direito dos *stories* (conforme mostrado no layout do Figma);<br>
+- [x]  Na caixa dos **stories**, deve haver itens o suficiente para ultrapassar a largura, mas os itens a mais não devem ser exibidos, conforme **layout**;<br>
+- [x]  Deve haver, no modo **desktop**, uma setinha no canto direito dos **stories** (conforme mostrado no layout do Figma);<br>
 - [x]  A setinha não precisa funcionar ao clicar (só será possível quando vermos JavaScript);<br>
-- [x]  Não pode haver um *scroll* horizontal visível.<br>
+- [x]  Não pode haver um **scroll** horizontal visível.<br>
 
 <hr/>
 
