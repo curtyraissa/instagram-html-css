@@ -202,6 +202,10 @@ main {
   height: 612px;
 }
 
+.video-feed {
+  width: 612px;
+}
+
 .bottom-feed {
   display: block;
   margin: 12px 17px;
@@ -210,6 +214,30 @@ main {
 .icon-bottom {
   display: flex;
   justify-content: space-between;
+  align-items: center;
+}
+
+.input-post {
+  width: 85%;
+}
+
+.publicar {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 14px;
+}
+
+.button {
+  color: #B2DFFC;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+}
+
+.button:hover {
+  color: #0095F6;
+  transition: 300ms;
+  cursor: pointer;
 }
 
 ion-icon {
@@ -353,9 +381,10 @@ strong {
     min-width: 100%;
   }
 
-  .left{
+  .left {
     margin-top: 53px;
   }
+
   .off {
     display: none;
   }
